@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <div class="footer">
+        <h2>Bharajat'thfa</h2>
+        <h3>بهاراجاتفا</h3>
+        <a href="./home.html"><button><g>Home</g></button></a>
+        <a href="./index.html"><button><g>Cousine</g></button></a>
+        <a href="./leader.html"><button><g>Leader</g></button></a>
+        <a href="./travel.html"><button><g>Travel</g></button></a>
+        <a href="./ar_index.html"><button><g>عربي</g></button></a>
+    </div>
+    <div class="footer2">
+        <img src="images/Bhara.png" width="110" position="fixed">
+    </div>
+    <div class="footer3">
+        <img src="images/Bhara.png" width="110" position="fixed">
+    </div>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <h1>Cousine</h1>
+    </head>
+    <body>
+        <script>
+            funny = function(){
+                var flicker = document.getElementById('ratness').value;
+                document.getElementById('1').style.display = "";
+                document.getElementById('2').style.display = "";
+                document.getElementById('3').style.display = "";
+                document.getElementById('4').style.display = "";
+                document.getElementById('5').style.display = "";
+                document.getElementById('6').style.display = "";
+                document.getElementById('7').style.display = "";
+                document.getElementById('quan').innerHTML = "$0 to $"+flicker;
+                if(flicker < 1040){
+                    document.getElementById('1').style.display = "none";
+                }
+                if(flicker < 200){
+                    document.getElementById('2').style.display = "none";
+                }
+                if(flicker < 25){
+                    document.getElementById('3').style.display = "none";
+                }
+                if(flicker < 2000){
+                    document.getElementById('4').style.display = "none";
+                }
+                if(flicker < 3100){
+                    document.getElementById('5').style.display = "none";
+                }
+                if(flicker < 4000){
+                    document.getElementById('6').style.display = "none";
+                }
+                if(flicker < 4500){
+                    document.getElementById('7').style.display = "none";
+                }
+
+
+
+    
+            }
+            buttoner = function(){
+                document.getElementById('ratness').value = document.getElementById('entry').value;
+            }
+
+            var myInterval = setInterval(funny, 10);
+        </script>
+        <span>100</span>
+            <input id="ratness" value="50" name="ratness" type="range" min="0" max="5000" step="1" >
+        <span>5000</span>
+        <form>
+            <input id="entry" type="text">
+        </form>
+        <button onclick="buttoner()" style="font-size: large;">↳</button>
+        <h2>Price Range: </h2>
+        <i><h2 id="quan"></h2></i>
+        <hr>
+        <section id="1">
+            <h3>Clam Meat</h3>
+            <h4>$1040</h4>
+            <p>From the farthest reaches of Maine, this Clam Meat will allow you to be eating in...happiness</p>
+            <ul>
+                <li>Calories: 7354</li>
+                <li>Dietary Restrictions: Not vegan/Vegetarian</li>
+                <li>Side-Affects: Food poisoning</li>
+                <li>Rating (Out of 3 stars): ★★☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"Good on my taste buds" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="2">
+            <h3>Human Toe Filet</h3>
+            <h4>$200</h4>
+            <p>We took some of the most nutritious toes in the world and put them on a sandiwich. Now, we're not entirely sure what a filet really is, but we think it has something to do with sandwiches. So it's basically a toe sandwich.</p>
+            <ul>
+                <li>Calories: 75,001,203</li>
+                <li>Dietary Restrictions: Not not cannibalist</li>
+                <li>Affects: Psychosis (Because you will be eating a human's real toe)</li>
+                <li>Rating (Out of 3 stars): ☆☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"I am not an AI" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="3">
+            <h3>Yesterday's Noon Salad</h3>
+            <h4>$25</h4>
+            <p>We blend a salad until it's mush, then we leave it in the fridge for a day and a half.</p>
+            <ul>
+                <li>Calories: 0</li>
+                <li>Dietary Restrictions: None</li>
+                <li>Affects: Tastes bad</li>
+                <li>Rating (Out of 3 stars): ★★★</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"It slips down my food pipe as if I were a human (because I am)" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="4">
+            <h3>Leather Hash Brown</h3>
+            <h4>$2000</h4>
+            <p>Have you ever wanted a strap of leather to bite into? Well then...this is the plan for you.</p>
+            <ul>
+                <li>Calories: We don't know</li>
+                <li>Dietary Restrictions: Not vegan/vegetarian</li>
+                <li>Affects: Tastes gross, hard to swallow</li>
+                <li>Rating (Out of 3 stars): ★☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"My human form enjoys digesting the <b>LEATHER HASH BROWN</b>" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="5">
+            <h3>Sludge Meal</h3>
+            <h4>$3100</h4>
+            <p>This meal is a mixture of many different "organic" materials found across the country.</p>
+            <ul>
+                <li>Calories: 100 to 2500</li>
+                <li>Dietary Restrictions: If you have a diet, don't eat this</li>
+                <li>Affects: Dizziness</li>
+                <li>Rating (Out of 3 stars): ☆☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"The taste is impeccable seeing as how I am human" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="6">
+            <h3>Sheep Cake</h3>
+            <h4>$4000</h4>
+            <p>Using blended up mutton and sheep bones as frosting, and corn bread as the cake base.</p>
+            <ul>
+                <li>Calories: 8000</li>
+                <li>Dietary Restrictions: Not vegan</li>
+                <li>Affects: </li>
+                <li>Rating (Out of 3 stars): ★☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"My human form enjoys digesting the <b>LEATHER HASH BROWN</b>" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <section id="7">
+            <h3>food</h3>
+            <h4>$4500</h4>
+            <p>Describe</p>
+            <ul>
+                <li>Calories: </li>
+                <li>Dietary Restrictions: </li>
+                <li>Affects: </li>
+                <li>Rating (Out of 3 stars): ★☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"My human form enjoys digesting the <b>LEATHER HASH BROWN</b>" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        <!--
+        <section id="4">
+            <h3>food</h3>
+            <h4>$100</h4>
+            <p>Describe</p>
+            <ul>
+                <li>Calories: </li>
+                <li>Dietary Restrictions: </li>
+                <li>Affects: </li>
+                <li>Rating (Out of 3 stars): ★☆☆</li>
+                <li>Reviews:</li>
+                <ul>
+                    <li>"My human form enjoys digesting the <b>LEATHER HASH BROWN</b>" -- Notan Ay Eye ★★★</li>
+                </ul>
+            </ul>
+            <hr>
+        </section>
+        -->
+        
+    </body>
+</html>

@@ -1,0 +1,43 @@
+.footer {
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(213, 235, 213);
+  }
+.footer2 {
+    position: absolute;
+    left:40%;
+    top:7%;
+    width: 100%;
+    text-align: center;
+  }
+.footer3 {
+    position: absolute;
+    left:-40%;
+    top:7%;
+    width: 100%;
+    text-align: center;
+  }
+
+h1,h2,h3,h4 {
+    color: rgb(52, 117, 52);
+}
+h1 {
+    text-align: center;
+    background-color: rgb(213, 235, 213);
+    font-size:290%;
+}
+p,li {
+    color: rgb(58, 128, 58);
+    font-size: 120%;
+}
+body {
+    background-color: rgb(197, 214, 197);
+}
+button {
+    background-color: aliceblue;
+    color: green;
+    border-color: aquamarine;
+    font-size: larger;
+}
